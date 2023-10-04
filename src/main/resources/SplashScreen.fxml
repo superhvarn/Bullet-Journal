@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="851.0" prefWidth="1024.0">
+      <children>
+         <ImageView fitHeight="141.0" fitWidth="150.0" layoutX="186.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../../../../../Downloads/bullet-removebg-preview.png" />
+            </image>
+         </ImageView>
+         <Label layoutX="332.0" layoutY="317.0" prefHeight="213.0" prefWidth="468.0" text="JOURNAL">
+            <font>
+               <Font size="96.0" />
+            </font>
+         </Label>
+      </children></AnchorPane>
+</Scene>

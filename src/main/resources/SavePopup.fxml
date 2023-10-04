@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="28.0" prefWidth="113.0">
+      <children>
+         <TextField fx:id="file" layoutX="25.0" layoutY="1.0" prefHeight="26.0" prefWidth="133.0" promptText="Save as..." />
+      </children></AnchorPane>
+</Scene>

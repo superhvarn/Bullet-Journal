@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="200" prefWidth="200">
+      <children>
+         <VBox alignment="BOTTOM_LEFT" layoutX="-3.0" layoutY="-3.0" prefHeight="206.0" prefWidth="205.0">
+            <children>
+               <TextField fx:id="taskNameOpen" promptText="Enter name of task" />
+               <TextField fx:id="taskDayOpen" promptText="Enter day of task" />
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>

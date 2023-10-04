@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <root>
+      <AnchorPane prefHeight="200" prefWidth="200">
+         <children>
+            <VBox alignment="BOTTOM_LEFT" prefHeight="200.0" prefWidth="199.0">
+               <children>
+                  <TextField fx:id="taskName" prefHeight="41.0" prefWidth="199.0" promptText="Enter name" />
+                  <TextField fx:id="taskDescription" prefHeight="41.0" prefWidth="199.0" promptText="Enter description (optional)" />
+                  <TextField fx:id="taskDay" prefHeight="41.0" prefWidth="199.0" promptText="Enter day" />
+                  <CheckBox fx:id="completedTask" mnemonicParsing="false" text="Completed?" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </root>
+</Scene>

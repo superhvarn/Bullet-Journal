@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="229.0" prefWidth="200">
+      <children>
+         <VBox alignment="BOTTOM_LEFT" prefHeight="228.0" prefWidth="199.0">
+            <children>
+               <TextField fx:id="eventName" prefHeight="41.0" prefWidth="199.0" promptText="Enter name" />
+               <TextField fx:id="eventDescription" prefHeight="41.0" prefWidth="199.0" promptText="Enter description (optional)" />
+               <TextField fx:id="eventDay" prefHeight="41.0" prefWidth="199.0" promptText="Enter day" />
+               <TextField fx:id="startTime" prefHeight="41.0" prefWidth="199.0" promptText="Enter start time" />
+               <TextField fx:id="eventDuration" prefHeight="41.0" prefWidth="199.0" promptText="Enter duration" />
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>

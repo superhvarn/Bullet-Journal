@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="112.0" prefWidth="200">
+      <children>
+         <VBox prefHeight="112.0" prefWidth="200.0">
+            <children>
+               <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="89.0" prefWidth="200.0" text="WARNING" textFill="#ab1111">
+                  <font>
+                     <Font size="37.0" />
+                  </font>
+               </Label>
+               <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="202.0" text="Cannot enter more items">
+                  <font>
+                     <Font size="16.0" />
+                  </font>
+               </Label>
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>
